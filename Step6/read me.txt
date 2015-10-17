@@ -1,0 +1,11 @@
+The technique use the < > syntax on the right hand
+side of an assignment is called explicit casting
+
+
+for example
+
+var item1= <any> {
+
+id:1,
+name:"Item1"
+};

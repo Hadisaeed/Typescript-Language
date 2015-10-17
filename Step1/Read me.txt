@@ -1,0 +1,18 @@
+
+TypeScript is a strongly typed language.suppose 
+once you have declared a variable to be of 
+type string ,you can only assign string values to 
+it.All further code that uses this variables
+must treat it as though it has a type of string.
+
+
+The TypeScript syntax for declaring the type of a
+variable is to include a colon (:), after variable 
+name.
+
+For example:
+
+
+var Name:Variable_type= value;
+
+var myname:string="Hadi";

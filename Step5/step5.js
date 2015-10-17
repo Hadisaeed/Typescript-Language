@@ -1,0 +1,10 @@
+var myType = { name: "Zia", id: 1 };
+myType = { id: 2, name: "hadi" }; // can only assign a type which has the atleast the same properties
+myType = { id: 3, name: "Huda", gender: true }; //because of any it assign a different type
+myType = { name: "Mehak", gender: false }; // because of any it can reduce the property
+myType = "Even a sring can be assigned";
+myType = function () { console.log("Even a Function can be assigned"); };
+var notSure = 4;
+notSure = "maybe a string instead";
+notSure = false;
+//# sourceMappingURL=step5.js.map
